@@ -1,0 +1,22 @@
+{
+    "name": "stefanov1989/pec-imap",
+    "description": "Package per la gestione delle PEC in casella tramite IMAP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Stefanov1989\\PecImap\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "StefanoV1989",
+            "email": "anonymouz89@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "php-imap/php-imap": "^5.0",
+        "zbateson/mail-mime-parser": "^3.0"
+    }
+}
