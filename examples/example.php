@@ -1,13 +1,13 @@
 <?php
 
-use Stefanov1989\PecImap\PecMailBox;
+use Stefanov1989\PecImap\PecMailbox;
 
 require __DIR__ . '/../vendor/autoload.php';
 
 $login = '****';
 $password = '***';
 
-$mailbox = new PecMailBox(
+$mailbox = new PecMailbox(
     imapPath: '{******:993/imap4/ssl}INBOX',
     login: $login,
     password: $password,
