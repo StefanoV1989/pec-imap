@@ -2,7 +2,6 @@
 
 namespace Stefanov1989\PecImap;
 
-use PhpImap\Imap;
 use PhpImap\Mailbox;
 
 class PecMailBox extends Mailbox
